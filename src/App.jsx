@@ -111,7 +111,7 @@ function Main() {
               <tbody>
                 <tr>
                   <td>attack</td>
-                  <td>メモリーを指定して攻撃</td>
+                  <td>メモリーを指定して攻撃する</td>
                   <td>attack(enemy.memory[0][0]);</td>
                 </tr>
                 <tr>
@@ -121,7 +121,7 @@ function Main() {
                 </tr>
                 <tr>
                   <td>connect</td>
-                  <td>メモリーにアクセスしてコードを表示</td>
+                  <td>メモリーにアクセスしてコードを表示する</td>
                   <td>memory[0][0].connect();</td>
                 </tr>
                 <tr>
@@ -150,12 +150,12 @@ function Main() {
                 </tr>
                 <tr>
                   <td>getH()</td>
-                  <td>陣地の高さを表示</td>
+                  <td>陣地の高さを表示する</td>
                   <td>int h = getH();</td>
                 </tr>
                 <tr>
                   <td>getW()</td>
-                  <td>陣地の幅を表示</td>
+                  <td>陣地の幅を表示する</td>
                   <td>int w = getW();</td>
                 </tr>
               </tbody>
