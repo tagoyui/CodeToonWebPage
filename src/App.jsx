@@ -12,6 +12,7 @@ function Header() {
 }
 
 function Body() {
+  console.log(0);
   return;
 }
 
@@ -36,12 +37,11 @@ function Main() {
           </div>
           <div className="content">
             ・プログラム本体：
-            <a href="CODETOON_Ver.1.5.0_Mac.jar">
-              <u>CODETOON_Ver.1.5.0_Mac.jar</u>
-            </a>
-            、
-            <a href="CODETOON_Ver.1.5.0_Win.exe">
-              <u>CODETOON_Ver.1.5.0_Win.exe</u>
+            <a
+              href="https://github.com/NagoshiTakaaki/CodeToon/releases/tag/1.5.0"
+              target="_blank"
+            >
+              <u>リリースリンク</u>
             </a>
           </div>
           <div className="content">
