@@ -1,23 +1,18 @@
 function Header() {
   return (
-    <header className="hero is-black is-bold">
+    <header className="hero is-black is-fullheight">
       <div className="hero-body">
-        <div className="container">
-          <h1 className="title">COOD TOON</h1>
+        <div className="">
+          <h1 className="title">CODE TOON</h1>
         </div>
       </div>
+      <Main />
     </header>
   );
 }
 
 function Body() {
-  return (
-    <div className="hero success id-dark is-fullheight">
-      <div className="hero-body">
-        <Main />
-      </div>
-    </div>
-  );
+  return;
 }
 
 function Main() {
@@ -31,10 +26,32 @@ function Main() {
                 <img src="image/icon.png"></img>
               </figure>
             </div>
-            <p className="title has-text-white">概要</p>
+            <p className="title has-text-white">成果物</p>
           </div>
           <div className="content">
-            ゲーム形式で楽しくプログラミングが学習できる対戦型パズルゲーム
+            ・企画書：
+            <a href="dc2022_13.pdf" target="_blank">
+              <u>dc2022_13.pdf</u>
+            </a>
+          </div>
+          <div className="content">
+            ・プログラム本体：
+            <a href="CODETOON_Ver.1.5.0_Mac.jar">
+              <u>CODETOON_Ver.1.5.0_Mac.jar</u>
+            </a>
+            、
+            <a href="CODETOON_Ver.1.5.0_Win.exe">
+              <u>CODETOON_Ver.1.5.0_Win.exe</u>
+            </a>
+          </div>
+          <div className="content">
+            ・ソースコード：
+            <a
+              href="https://github.com/NagoshiTakaaki/CodeToon"
+              target="_blank"
+            >
+              <u>githubリポジトリ</u>
+            </a>
           </div>
         </div>
       </div>
