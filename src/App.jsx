@@ -111,18 +111,28 @@ function Main() {
               <tbody>
                 <tr>
                   <td>attack</td>
-                  <td>メモリを指定して攻撃</td>
+                  <td>メモリーを指定して攻撃</td>
                   <td>attack(enemy.memory[0][0]);</td>
                 </tr>
                 <tr>
                   <td>setPass</td>
-                  <td>メモリにロックをかける</td>
+                  <td>メモリーにロックをかける</td>
                   <td>memory[0][0].setPass(0000);</td>
                 </tr>
                 <tr>
                   <td>connect</td>
-                  <td>メモリにアクセスしてコードを表示</td>
-                  <td>memory[0][0].connect()</td>
+                  <td>メモリーにアクセスしてコードを表示</td>
+                  <td>memory[0][0].connect();</td>
+                </tr>
+                <tr>
+                  <td>recovery</td>
+                  <td>アクセスされたメモリーを回復する</td>
+                  <td>recover(memory[0][0]);</td>
+                </tr>
+                <tr>
+                  <td>print</td>
+                  <td>内容を出力する</td>
+                  <td>print("Hello, World");</td>
                 </tr>
                 <tr>
                   <td>if文</td>
@@ -137,6 +147,16 @@ function Main() {
                   <td>
                     for(int value; Boolean i; action){"{"}INSIDE{"}"}
                   </td>
+                </tr>
+                <tr>
+                  <td>getH()</td>
+                  <td>陣地の高さを表示</td>
+                  <td>int h = getH();</td>
+                </tr>
+                <tr>
+                  <td>getW()</td>
+                  <td>陣地の幅を表示</td>
+                  <td>int w = getW();</td>
                 </tr>
               </tbody>
             </table>
