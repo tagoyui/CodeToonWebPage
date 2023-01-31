@@ -53,6 +53,15 @@ function Main() {
               <u>githubリポジトリ</u>
             </a>
           </div>
+          <div className="content">
+            ・照会動画：
+            <a
+              href="https://youtu.be/h3FOs3H2Ivs"
+              target="_blank"
+            >
+              <u>Youtube</u>
+            </a>
+          </div>
         </div>
       </div>
 
