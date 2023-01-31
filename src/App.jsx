@@ -1,12 +1,14 @@
 function Header() {
   return (
     <header className="hero is-black is-fullheight">
-      <div className="hero-body">
-        <div className="">
+      <div className="container">
+        <div className="hero-body">
           <h1 className="title">CODE TOON</h1>
         </div>
       </div>
-      <Main />
+      <div className="container">
+        <Main />
+      </div>
     </header>
   );
 }
