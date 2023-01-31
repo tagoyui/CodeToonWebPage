@@ -56,7 +56,7 @@ function Main() {
             </a>
           </div>
           <div className="content">
-            ・照会動画：
+            ・紹介動画：
             <a
               href="https://youtu.be/h3FOs3H2Ivs"
               target="_blank"
