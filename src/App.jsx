@@ -58,10 +58,10 @@ function Main() {
           <div className="content">
             ・紹介動画：
             <a
-              href="https://youtu.be/h3FOs3H2Ivs"
+              href="https://drive.google.com/drive/folders/1U4cUy0ZUftD0mgxAU-48_0NU6XunkbjB?usp=share_link"
               target="_blank"
             >
-              <u>Youtube</u>
+              <u>動画</u>
             </a>
           </div>
         </div>
